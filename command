@@ -1,0 +1,2 @@
+g++ -g -fPIC -Wno-deprecated -O2 -ansi -pthread -std=c++11 -Wno-deprecated-declarations -m64 -L/afs/cern.ch/sw/lcg/app/releases/ROOT/6.06.08/x86_64-slc6-gcc49-opt/root/lib -lGui -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -pthread -lRooFit -lRooFitCore -lm -ldl -rdynamic -pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/afs/cern.ch/sw/lcg/app/releases/ROOT/6.06.08/x86_64-slc6-gcc49-opt/root/include -g TreeToDataset.C -o TreeToDataset
+
